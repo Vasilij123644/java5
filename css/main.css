@@ -1,0 +1,72 @@
+* {
+    margin-bottom: 5px;
+}
+.container {
+    width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+}
+#text {
+    margin-right: 5px;
+}
+.left {
+    text-align: right;
+}
+#buy{
+    border: 2px solid;
+    background-color: gainsboro;
+    margin-right: 0px;
+
+}
+#mounth_text{
+    top: 10px;
+}
+.mounth{
+    width: 250px;
+    bottom: 56px;
+}
+#price_text{
+    bottom: 21px;
+}
+.price{
+    width: 250px;
+    bottom: 56px;
+}
+#fio_text{
+    bottom: 55px;
+}
+.fio{
+    width: 250px;
+    bottom: 56px;
+}
+#day_text{
+    bottom: 90px;
+}
+.day{
+    width: 250px;
+    bottom: 56px;
+}
+#service_text{
+    bottom: 125px;
+}
+.service{
+    width: 250px;
+    bottom: 56px;
+}
+.button{
+    width: 100px;
+    margin-right: 20px;
+}
+.clear{
+    width: 100px;
+    margin-right: 20px;
+}
+#rez_text{
+    bottom: 120px;
+}
+.rez{
+    width: 250px;
+    bottom: 56px;
+}

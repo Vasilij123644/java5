@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каляка-маляка</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 id="buy" >Расчёт стоимости</h3>
+        </div>
+        <div class="left">
+            <div class="mes">
+                <span id="text">Месяц</span>
+                <select class="mounth">
+                    <option value="Январь">Январь</option>
+                    <option value="Февраль">Февраль</option>
+                    <option value="Март">Март</option>
+                    <option value="Апрель">Апрель</option>
+                    <option value="Май">Май</option>
+                    <option value="Июнь">Июнь</option>
+                    <option value="Июль">Июль</option>
+                    <option value="Август">Август</option>
+                    <option value="Сентябрь">Сентябрь</option>
+                    <option value="Октябрь">Октябрь</option>
+                    <option value="Ноябрь">Ноябрь</option>
+                    <option value="Декабрь">Декабрь</option>
+                </select>
+            </div>
+            <div class="cena">
+                <span id="text">Стоимость 1 дня</span><input class="price" type="text" readonly value="600">
+            </div>
+            <div class="name">
+                <span id="text">ФИО ребёнка</span><input oninput="this.value=this.value.replace(/[^А-Яа-яЁё]/g,'');" class="fio" type="text">
+            </div>
+            <div class="dny">
+                <span id="text">Количество дней</span><input class="day" type="number">
+            </div>
+            <div class="do">
+                <span id="text">Дополнительная услуга</span>
+                <select class="service">
+                    <option value="Нет">Нет</option>
+                    <option value="Весёлый мяч">Весёлый мяч</option>
+                    <option value="Каляка маляка">Каляка маляка</option>
+                    <option value="Вокал">Вокал</option>    
+                </select>
+            </div>
+            <div class="knopki">
+                <button class="button">Расчитать</button>
+                <button class="clear">Очистить</button>
+            </div>
+            <div class="summaitog">
+                <span id="text">Сумма к оплате за месяц</span>
+                <input class="rez" type="text" readonly>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+   </body>
+</html>
